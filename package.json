@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "remix dev",
     "build": "remix build",
+    "build:netlify": "npm install && remix build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
