@@ -1,6 +1,6 @@
 [build]
   command = "npm run build:netlify"
-  publish = "dist/client"  # Adjust this path to match your output directory
+  publish = "public/build"  # Adjust this to match your Remix output directory
 
 [build.environment]
   NODE_VERSION = "22"

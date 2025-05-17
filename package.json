@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "remix dev",
-    "build": "remix build",
-    "build:netlify": "npm install && remix build",
+    "dev": "vite",
+    "build": "vite build",
+    "build:netlify": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
