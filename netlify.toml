@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist/client"  # Adjust this path to match your output directory
+
+[build.environment]
+  NODE_VERSION = "22"
